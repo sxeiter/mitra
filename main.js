@@ -16,3 +16,17 @@
     modal.style.display = 'none';
     home.style.display = 'block';
   });
+
+  const helpBlock = document.querySelector('.services-block-help');
+
+helpBlock.addEventListener('mouseover', function() {
+  helpBlock.style.width = '300px';
+  helpBlock.querySelector('.needhelp').style.display = 'none';
+  helpBlock.querySelector('.close-bot').style.display = 'block';
+});
+
+helpBlock.addEventListener('mouseout', function() {
+  helpBlock.style.width = '54px';
+  helpBlock.querySelector('.needhelp').style.display = 'block';
+  helpBlock.querySelector('.close-bot').style.display = 'none';
+});

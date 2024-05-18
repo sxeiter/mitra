@@ -1,6 +1,6 @@
 .home {
   width: 375px;
-  height: 700px;
+  height: 775px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,6 +22,7 @@
   justify-content: center;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
+  margin-bottom: 99px;
 }
 
 .home-title {
@@ -73,4 +74,114 @@
   width: 35px;
   height: 20px;
   cursor: pointer;
+}
+
+.services {
+  width: 54px;
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.services-block {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: linear-gradient(
+    237.04deg,
+    #aa21ff 4.33%,
+    #cb78ff 24.5%,
+    #c76cff 47.56%,
+    #c268ff 69.19%,
+    #9984ff 93.26%,
+    #9883ff 121.23%
+  );
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  transition: width 0.3s, height 0.3s, transform 0.3s;
+  transform-origin: left center;
+}
+
+.needhelp {
+  padding: 15px 20px;
+  opacity: 1;
+  display: block;
+}
+
+.services-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  width: 250px;
+  height: 19px;
+  text-transform: uppercase;
+  margin-right: 11px;
+}
+
+.services-block-help:hover {
+  width: 300px;
+  border-radius: 30px;
+  right: 246px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.services-block-help:hover .services-text {
+  opacity: 1;
+}
+
+.needhelp:hover {
+  opacity: 0;
+  display: none;
+  color: inherit;
+}
+
+.close-bot {
+  opacity: 0;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 23px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.services-block-help .needhelp {
+  display: block;
+}
+
+.services-block-help:hover .needhelp {
+  display: none;
+}
+
+.services-block-help .close-bot {
+  display: none;
+}
+
+.services-block-help:hover .close-bot {
+  display: block;
 }
