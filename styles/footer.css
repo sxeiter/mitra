@@ -1,0 +1,28 @@
+.footer {
+  width: 375px;
+  height: 267px;
+  background: #262442;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  margin: 0;
+}

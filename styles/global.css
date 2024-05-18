@@ -1,0 +1,51 @@
+/* Reset all margins, paddings, and borders */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+
+/* Reset typography */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Reset lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form elements */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Reset tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

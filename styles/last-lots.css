@@ -1,0 +1,73 @@
+.last-lots {
+  width: 375px;
+  height: 1395px;
+  margin: 0 auto;
+  color: #ffffff;
+  background-image: url("../images/lots/background-last-slot.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.last-lots-container {
+  padding: 60px 21px;
+}
+
+.last-lots-title {
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  width: 206px;
+  height: 25px;
+  margin-bottom: 30px;
+}
+
+.last-lots-content {
+  height: 370px;
+  border-radius: 18px;
+  border: 1px solid #ffffff40;
+  margin-bottom: 30px;
+  background: linear-gradient(
+    80.95deg,
+    rgba(39, 8, 162, 0.59) 6.27%,
+    rgba(15, 0, 74, 0.79) 90.7%
+  );
+}
+
+.last-lots-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.last-lots-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  width: 289px;
+  padding: 30px 21px 20px 25px;
+}
+
+.last-lots-price {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.last-lots-link {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: right;
+  padding-left: 220px;
+}

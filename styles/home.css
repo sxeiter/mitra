@@ -1,0 +1,76 @@
+.home {
+  width: 375px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  background-image: url("../images/china.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.home-container {
+  width: 315px;
+  height: 377px;
+  margin-top: 160px;
+  border: 1px solid #ffffff40;
+  background: #ffffff59;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.home-title {
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  width: 246px;
+  height: 88px;
+  word-break: break-all;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.home-text {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.home-footer {
+  padding-left: 20px;
+}
+
+.btn-home {
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(
+    229.99deg,
+    #ba38ff -2.16%,
+    #af2eff 16.16%,
+    #9e00ff 51.38%,
+    #5532ff 71.26%,
+    #5431ff 79.66%,
+    #5430ff 93.81%
+  );
+}
+
+.burger {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  background-image: url("../images/burger.svg");
+  width: 35px;
+  height: 20px;
+  cursor: pointer;
+}

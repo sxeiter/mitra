@@ -1,0 +1,48 @@
+.sell-together {
+  width: 375px;
+  height: 631px;
+  margin: 0 auto;
+  color: #262442;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.sell-together-container {
+  padding: 53px 31px 60px 20px;
+}
+.sell-together-title {
+  font-family: Raleway;
+  width: 257px;
+  font-family: Raleway;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.sell-together-content {
+  width: 279px;
+  height: 87px;
+}
+
+.sell-together-content:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.sell-together-subtitle {
+  margin-bottom: 10px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35.22px;
+  text-align: left;
+}
+.sell-together-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+}
