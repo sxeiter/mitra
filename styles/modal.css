@@ -7,7 +7,9 @@
   flex-direction: column;
   align-items: start;
   padding-left: 51px;
+  padding-top: 60px;
   display: none;
+  padding: 60px 0 46px 50px;
 }
 
 .close-modal {
@@ -24,7 +26,7 @@
   color: #ffffff;
   gap: 20px;
   margin-top: 125px;
-  margin-bottom: 214px;
+  margin-bottom: 130px;
 }
 
 .modal-social-list {
@@ -51,6 +53,13 @@
   );
 }
 
-.modal-logo {
-  margin: -66px;
+.modal-item {
+  position: relative;
+}
+
+.modal-link::after {
+  content: url("../images/arrow-down.svg");
+  margin-left: 10px;
+  position: absolute;
+  top: -3px;
 }

@@ -38,7 +38,16 @@
   font-weight: 500;
   line-height: 35.22px;
   text-align: left;
+  position: relative;
 }
+
+.sell-together-subtitle::after {
+  position: absolute;
+  content: url("../images/line.svg");
+  margin-left: 10px;
+  top: -20%;
+}
+
 .sell-together-text {
   font-family: Roboto;
   font-size: 16px;

@@ -3,7 +3,13 @@
   height: 1395px;
   margin: 0 auto;
   color: #ffffff;
-  background-image: url("../images/lots/background-last-slot.png");
+  background: url("../images/lots/background-last-slot.png"),
+    linear-gradient(
+      80.95deg,
+      rgba(39, 8, 162, 0.59) 6.27%,
+      rgba(15, 0, 74, 0.79) 90.7%
+    );
+  background-blend-mode: exclusion;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +18,7 @@
 
 .last-lots-container {
   padding: 60px 21px;
+  backdrop-filter: blur(10px);
 }
 
 .last-lots-title {
@@ -35,6 +42,8 @@
     rgba(39, 8, 162, 0.59) 6.27%,
     rgba(15, 0, 74, 0.79) 90.7%
   );
+  backdrop-filter: blur(10px);
+  opacity: 0.8;
 }
 
 .last-lots-img {

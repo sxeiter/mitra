@@ -33,13 +33,43 @@
 }
 
 .advantages-content__one {
-  background-image: url("../images/advantages/block-one.png");
+  background: url("../images/advantages/block-one.png"),
+    linear-gradient(
+      221.45deg,
+      #aa21ff -6.42%,
+      #cb78ff 7.81%,
+      #c76cff 37.51%,
+      #c268ff 59.49%,
+      #9984ff 83.95%,
+      #9883ff 112.37%
+    );
+  background-blend-mode: multiply;
 }
 .advantages-content__two {
-  background-image: url("../images/advantages/block-two.png");
+  background: url("../images/advantages/block-two.png"),
+    linear-gradient(
+      221.45deg,
+      #aa21ff -6.42%,
+      #cb78ff 7.81%,
+      #c76cff 37.51%,
+      #c268ff 59.49%,
+      #9984ff 83.95%,
+      #9883ff 112.37%
+    );
+  background-blend-mode: multiply;
 }
 .advantages-content__three {
-  background-image: url("../images/advantages/block-three.png");
+  background: url("../images/advantages/block-three.png"),
+    linear-gradient(
+      221.45deg,
+      #aa21ff -6.42%,
+      #cb78ff 7.81%,
+      #c76cff 37.51%,
+      #c268ff 59.49%,
+      #9984ff 83.95%,
+      #9883ff 112.37%
+    );
+  background-blend-mode: multiply;
 }
 
 .advantages-content__one::after {

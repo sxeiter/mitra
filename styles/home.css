@@ -6,15 +6,15 @@
   align-items: flex-start;
   margin: 0 auto;
   background-image: url("../images/china.png");
-  background-size: cover;
-  background-position: top;
+  background-position: 58% 60%;
   position: relative;
+  padding-top: 160px;
 }
 
 .home-container {
   width: 315px;
   height: 377px;
-  margin-top: 160px;
+
   border: 1px solid #ffffff40;
   background: #ffffff59;
   display: flex;
@@ -22,7 +22,7 @@
   justify-content: center;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
-  margin-bottom: 99px;
+  backdrop-filter: blur(10px);
 }
 
 .home-title {
