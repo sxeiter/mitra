@@ -16,11 +16,13 @@
   </head>
   <body>
     <header class="header">
+      <img class="logo" src="./images/logo.svg" alt="Логотип" />
       <nav class="nav">
-        <img class="logo" src="./images/logo.svg" alt="Логотип" />
         <ul class="menu">
           <li class="menu-item"><a class="menu-link" href="#">Главная</a></li>
-          <li class="menu-item"><a class="menu-link" href="#">О проекте</a></li>
+          <li class="menu-item">
+            <a class="menu-link menu-link-img" href="#">О проекте</a>
+          </li>
           <li class="menu-item"><a class="menu-link" href="#">Аукционы</a></li>
           <li class="menu-item"><a class="menu-link" href="#">Партнеры</a></li>
           <li class="menu-item">
@@ -87,13 +89,13 @@
           <div class="home-footer">
             <button class="btn btn-home">Перейти к торгам</button>
             <ul class="home-list">
-              <li class="home-item">
+              <li class="home-item home-item-phone">
                 <a class="home-link" href="#"> </a>
               </li>
-              <li class="home-item">
+              <li class="home-item home-item-tg">
                 <a class="home-link" href="#"> </a>
               </li>
-              <li class="home-item">
+              <li class="home-item home-item-vk">
                 <a class="home-link" href="#"> </a>
               </li>
             </ul>
@@ -122,25 +124,25 @@
       <section class="sell-together">
         <div class="sell-together-container">
           <h2 class="sell-together-title">Продавайте вместе с нами</h2>
-          <div class="sell-together-content">
+          <div class="sell-together-content content1">
             <h3 class="sell-together-subtitle">01</h3>
             <p class="sell-together-text">
               Продаём всё — от предметов искусства до недвижимости
             </p>
           </div>
-          <div class="sell-together-content">
+          <div class="sell-together-content content2">
             <h3 class="sell-together-subtitle">02</h3>
             <p class="sell-together-text">
               Продавцом может выступать как юридическое, так и физическое лицо
             </p>
           </div>
-          <div class="sell-together-content">
+          <div class="sell-together-content content3">
             <h3 class="sell-together-subtitle">03</h3>
             <p class="sell-together-text">
               Политика гарантированных ставок (нажал «купить» - должен оплатить)
             </p>
           </div>
-          <div class="sell-together-content">
+          <div class="sell-together-content content4">
             <h3 class="sell-together-subtitle">04</h3>
             <p class="sell-together-text">
               Проведение аукционов с начальной ценой от 1 рубля
@@ -151,7 +153,7 @@
       <section class="last-lots">
         <div class="last-lots-container">
           <h2 class="last-lots-title">Последние лоты</h2>
-          <div class="last-lots-content">
+          <div class="last-lots-content last-content1">
             <img
               class="last-lots-img"
               src="./images/lots/car1.png"
@@ -163,7 +165,7 @@
             </p>
             <span class="last-lots-price">4 793 912 ₽</span>
           </div>
-          <div class="last-lots-content">
+          <div class="last-lots-content last-content2">
             <img
               class="last-lots-img"
               src="./images/lots/car2.png"
@@ -175,7 +177,7 @@
             </p>
             <span class="last-lots-price">6 512 033 ₽</span>
           </div>
-          <div class="last-lots-content">
+          <div class="last-lots-content last-content3">
             <img
               class="last-lots-img"
               src="./images/lots/car3.png"
@@ -187,7 +189,9 @@
             </p>
             <span class="last-lots-price">4 861 723 ₽</span>
           </div>
-          <a class="last-lots-link" href="#">Смотреть больше ></a>
+          <div class="last-lots-content-link last-content4">
+            <a class="last-lots-link" href="#">Смотреть больше</a>
+          </div>
         </div>
       </section>
       <section class="advantages">
@@ -212,6 +216,48 @@
         <img class="footer-logo" src="./images/logo.svg" alt="" />
         <p class="footer-text">© 2020-2024 ООО «Митра».</p>
         <p class="footer-text">Все права защищены</p>
+      </div>
+      <div class="footer-menu">
+        <nav class="footer-nav">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <img class="footer-logo" src="./images/logo.svg" alt="Логотип" />
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="#">Главная</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link footer-menu-link-img" href="#"
+                >О проекте</a
+              >
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="#">Аукционы</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="#">Партнеры</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="#">Доп. услуги</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="#">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-social">
+        <ul class="footer-list">
+          <li class="footer-item footer-item-phone">
+            <a class="footer-link" href="#"> </a>
+          </li>
+          <li class="footer-item footer-item-tg">
+            <a class="footer-link" href="#"> </a>
+          </li>
+          <li class="footer-item footer-item-vk">
+            <a class="footer-link" href="#"> </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>

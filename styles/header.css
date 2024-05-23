@@ -1,3 +1,82 @@
 .header {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: auto 47px minmax(350px, 600px) minmax(216px, 350px) auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". logo nav auth .";
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #262442;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .logo {
+    grid-area: logo;
+    margin: 0;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-link-img::after {
+    content: url("../images/arrow-down.svg");
+    margin-left: 10px;
+  }
+
+  .auth {
+    grid-area: auth;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: row;
+  }
+
+  .localization {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-right: 12px;
+  }
+
+  .localization-item {
+    color: #ffffff66;
+    cursor: pointer;
+  }
+
+  .localization-item:hover {
+    color: #ffffff;
+  }
+
+  .btn-login {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 103px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ffffff;
+    background: linear-gradient(
+      229.99deg,
+      #ba38ff -2.16%,
+      #af2eff 16.16%,
+      #9e00ff 51.38%,
+      #5532ff 71.26%,
+      #5431ff 79.66%,
+      #5430ff 93.81%
+    );
+  }
+}

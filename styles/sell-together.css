@@ -55,3 +55,79 @@
   line-height: 20.8px;
   text-align: left;
 }
+
+@media screen and (min-width: 768px) {
+  .sell-together {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: start;
+    padding-left: 124px;
+  }
+  .sell-together-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 30px;
+  }
+
+  .content1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .content2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .content3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .content4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .sell-together-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    min-width: 536px;
+    height: 40px;
+    margin-bottom: 60px;
+  }
+  .sell-together-content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .sell-together-subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    width: 111px;
+    height: 35px;
+  }
+
+  .sell-together-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 346px;
+  }
+}

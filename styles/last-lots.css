@@ -36,7 +36,6 @@
   height: 370px;
   border-radius: 18px;
   border: 1px solid #ffffff40;
-  margin-bottom: 30px;
   background: linear-gradient(
     80.95deg,
     rgba(39, 8, 162, 0.59) 6.27%,
@@ -44,6 +43,7 @@
   );
   backdrop-filter: blur(10px);
   opacity: 0.8;
+  margin-bottom: 30px;
 }
 
 .last-lots-img {
@@ -72,11 +72,127 @@
   padding-left: 25px;
 }
 
-.last-lots-link {
+.last-lots-content-link {
+  width: 114px;
+  height: 14px;
+  display: flex;
   font-family: Roboto;
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
-  text-align: right;
-  padding-left: 220px;
+  margin-left: 220px;
+}
+
+.last-lots-content-link::after {
+  content: "";
+  background-image: url("../images/arrow-right.svg");
+  background-size: 8px 17px;
+  width: 8px;
+  height: 17px;
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .last-lots {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    padding-top: 120px;
+    padding-left: 124px;
+    align-items: start;
+    justify-items: start;
+    justify-content: start;
+  }
+
+  .last-lots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 0;
+    width: 100%;
+    backdrop-filter: none;
+  }
+
+  .last-lots-title {
+    width: 330px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .last-content1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .last-content2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .last-content3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .last-lots-content {
+    max-width: 371px;
+    height: 381px;
+    border-radius: 20px;
+    opacity: 1;
+    border: 1px solid #ffffff40;
+    background: #ffffff26;
+  }
+
+  .last-lots-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .last-lots-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    width: 100%;
+    padding: 30px 21px 20px 25px;
+  }
+
+  .last-lots-price {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 25px;
+  }
+
+  .last-lots-content-link {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 0;
+    width: 189px;
+    height: 23px;
+    margin: 0;
+  }
+
+  .last-lots-content-link::after {
+    width: 10px;
+    height: 23px;
+    background-repeat: no-repeat;
+  }
 }
