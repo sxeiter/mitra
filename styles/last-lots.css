@@ -10,7 +10,7 @@
     ),
     url("../images/lots/background-last-slot.png");
 
-  background-blend-mode: color;
+  background-blend-mode: normal;
   background-size: cover;
   opacity: 0.9;
   display: flex;
@@ -55,6 +55,7 @@
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
   background: #7b61f8;
+  opacity: 85%;
 }
 
 .last-lots-text {
