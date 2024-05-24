@@ -33,8 +33,7 @@
 }
 
 .advantages-content__one {
-  background: url("../images/advantages/block-one.png"),
-    linear-gradient(
+  background: linear-gradient(
       221.45deg,
       #aa21ff -6.42%,
       #cb78ff 7.81%,
@@ -42,12 +41,13 @@
       #c268ff 59.49%,
       #9984ff 83.95%,
       #9883ff 112.37%
-    );
-  background-blend-mode: multiply;
+    ),
+    url("../images/advantages/1.svg");
+  background-blend-mode: color;
+  background-size: cover;
 }
 .advantages-content__two {
-  background: url("../images/advantages/block-two.png"),
-    linear-gradient(
+  background: linear-gradient(
       221.45deg,
       #aa21ff -6.42%,
       #cb78ff 7.81%,
@@ -55,12 +55,13 @@
       #c268ff 59.49%,
       #9984ff 83.95%,
       #9883ff 112.37%
-    );
-  background-blend-mode: multiply;
+    ),
+    url("../images/advantages/2.svg");
+  background-blend-mode: color;
+  background-size: cover;
 }
 .advantages-content__three {
-  background: url("../images/advantages/block-three.png"),
-    linear-gradient(
+  background: linear-gradient(
       221.45deg,
       #aa21ff -6.42%,
       #cb78ff 7.81%,
@@ -68,29 +69,31 @@
       #c268ff 59.49%,
       #9984ff 83.95%,
       #9883ff 112.37%
-    );
-  background-blend-mode: multiply;
+    ),
+    url("../images/advantages/3.svg");
+  background-blend-mode: color;
+  background-size: cover;
 }
 
 .advantages-content__one::after {
   content: url("../images/advantages/list.svg");
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -2px;
 }
 
 .advantages-content__two::after {
   content: url("../images/advantages/def.svg");
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -2px;
 }
 
 .advantages-content__three::after {
   content: url("../images/advantages/gear.svg");
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -2px;
 }
 
 .advantages-text {

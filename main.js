@@ -30,3 +30,4 @@ helpBlock.addEventListener('mouseout', function() {
   helpBlock.querySelector('.needhelp').style.display = 'block';
   helpBlock.querySelector('.close-bot').style.display = 'none';
 });
+

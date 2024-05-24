@@ -51,6 +51,7 @@
     #5431ff 79.66%,
     #5430ff 93.81%
   );
+  color: #ffffff;
 }
 
 .modal-item {
@@ -62,4 +63,42 @@
   margin-left: 10px;
   position: absolute;
   top: -3px;
+}
+
+.modal-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #262442;
+  padding: 10px;
+  z-index: 1;
+  border: 1px solid #ffffff66;
+  border-radius: 5px;
+}
+
+.modal-dropdown-item {
+  display: block;
+}
+
+.modal-item:hover .modal-dropdown {
+  display: block;
+}
+.dropdow-link {
+  display: block;
+  color: #ffffff;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.dropdow-link:hover {
+  background: linear-gradient(
+    229.99deg,
+    #ba38ff -2.16%,
+    #af2eff 16.16%,
+    #9e00ff 51.38%,
+    #5532ff 71.26%,
+    #5431ff 79.66%,
+    #5430ff 93.81%
+  );
 }

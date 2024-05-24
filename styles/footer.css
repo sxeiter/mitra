@@ -45,7 +45,8 @@
     padding: 60px 120px;
     display: grid;
     grid-template-columns: 1fr 72px;
-    gap: 270px;
+    grid-template-rows: auto;
+    justify-content: space-between;
     font-family: Roboto;
     font-size: 15px;
     font-weight: 700;
@@ -61,10 +62,11 @@
     grid-column-start: 1;
     grid-column-end: 2;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    gap: 60px;
     align-items: center;
     justify-content: space-between;
+    gap: 10px 60px;
   }
 
   .footer-social {
