@@ -11,6 +11,7 @@
 
 .advantages-container {
   padding: 60px 20px;
+  width: 100%;
 }
 
 .advantages-title {
@@ -25,7 +26,6 @@
 }
 
 .advantages-content {
-  width: 335px;
   height: 162px;
   margin-bottom: 30px;
   border-radius: 18px;
@@ -102,10 +102,9 @@
   font-weight: 400;
   line-height: 19.2px;
   text-align: left;
-  width: 230px;
+  min-width: 230px;
   background-blend-mode: color;
-  padding-top: 44px;
-  padding-left: 27px;
+  padding: 44px 27px;
 }
 
 @media (min-width: 1024px) {

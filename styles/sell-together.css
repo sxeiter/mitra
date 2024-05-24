@@ -14,7 +14,7 @@
 }
 .sell-together-title {
   font-family: Raleway;
-  width: 257px;
+  min-width: 257px;
   font-family: Raleway;
   font-size: 25px;
   font-weight: 700;
@@ -23,7 +23,7 @@
   margin-bottom: 30px;
 }
 .sell-together-content {
-  width: 279px;
+  min-width: 279px;
   height: 87px;
 }
 
