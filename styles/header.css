@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .header {
     display: grid;
     grid-template-columns: auto 47px minmax(350px, 600px) minmax(216px, 350px) auto;

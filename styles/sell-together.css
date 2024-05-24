@@ -1,11 +1,11 @@
 .sell-together {
-  width: 375px;
+  width: 100%;
   height: 631px;
   margin: 0 auto;
   color: #262442;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
   background-color: #ffffff;
 }
@@ -56,7 +56,7 @@
   text-align: left;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .sell-together {
     width: 100%;
     display: grid;
